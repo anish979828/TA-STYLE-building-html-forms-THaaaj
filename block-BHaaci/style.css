@@ -1,0 +1,133 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom style  */
+body {
+    background: url(./assets/bg-intro-desktop.png) no-repeat,linear-gradient(rgba(255,0,0,0.5),rgba(255,0,0,0.5));
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.2;
+}
+/* general style  */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 100px 0px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.col1 {
+    flex: 0 1 45%;
+}
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+p {
+    margin-top: 20px;
+    line-height: 1.5;
+}
+.col2 {
+    flex: 0 1 45%;
+}
+form {
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.5);
+}
+.first-button {
+    width: 528px;
+    background-color:#5d54a3;
+    color:grey;
+    border-radius: 10px;
+    border: 0;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.first-button strong {
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+}
+input {
+    display: block;
+    border-radius: 5px;
+    border: 0.5px solid grey;
+    width: 450px;
+    margin-top: 20px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.second-button {
+    width: 490px;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color:#37cc8a;
+    padding: 20px;
+    font-size: 15px;
+    color: white;
+    border: 0px;
+}
+.footer {
+    margin-top: 10px;
+    color:darkgrey;
+    font-size: 10px;
+    text-align: center;
+}
+.footer strong {
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+} 
