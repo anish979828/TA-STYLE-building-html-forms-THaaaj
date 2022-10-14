@@ -1,0 +1,261 @@
+<!-- - Create a page according to the layout shown below.
+
+![Building HTML forms Assignment level 2](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/building-html-forms/ex-2.png)
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title  -->
+    <title>HTML FORM</title>
+    <!-- stylesheet   -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- font awesome  -->
+    <script src="https://kit.fontawesome.com/53765f52cd.js" crossorigin="anonymous"></script>
+    <!-- font family  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,300;1,400;1,500&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- header  -->
+    <header class="container flex">
+        <div>
+            <a href="#">
+                <img src="./assets/logo.png" alt="logo">
+                <span>Journey</span>
+            </a>
+        </div>
+        <nav>
+            <ul class="flex">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Top Destinations</a>
+                </li>
+                <li>
+                    <a href="#">Recommended Places</a>
+                </li>
+                <li>
+                    <a href="#">Contacts Us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- main content -->
+    <main>
+        <div class="container">
+            <section class="section1">
+                <div class="text">
+                    <h1>let's begin</h1>
+                    <figure>
+                        <img src="./assets/dots-3.png" alt="dots">
+                    </figure>
+                    <h2>We assist you to choose the best</h2>
+                    <div class="circle">
+                        <i class="fa-sharp fa-solid fa-angle-down"></i>
+                    </div>
+                </div>
+                <div>
+                </div>
+                <form action="index.html" method="post">
+                    <fieldset class="col1">
+                        <legend>Choose Yout Destination </legend>
+                        <input type="text" placeholder="Type your destination...">
+                        <legend>Check in Date </legend>
+                        <input type="text" placeholder="Check in">
+                    </fieldset>
+                    <fieldset class="col2">
+                        <div>
+                            <legend>Check Out Date</legend>
+                            <input type="text" placeholder="Check Out">
+                        </div>
+                    </fieldset>
+                    <fieldset class="col3">
+                        <div class="col-flex">
+                            <div class="col3-flex">
+                                <div>
+                                    <legend>How many rooms?</legend>
+                                    <select name="rooms">
+                                        <option value="1">1 Room</option>
+                                        <option value="2">2 Room</option>
+                                        <option value="3">3 Room</option>
+                                        <option value="4">4 Room</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <legend>Adult</legend>
+                                        <select name="rooms">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                        </select>
+                                </div>
+                                <div>
+                                    <legend>Children</legend>
+                                    <select name="rooms">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <button class="btn">CHECK AVAILABILITY</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </section>
+            <section class="section2 container">
+              <h3>YOUR <strong>Journey</strong>is our priority </h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ab eligendi veritatis porro illo,  <br> minus, excepturi, debitis vero doloremque non sapiente architecto aperia</p>
+              <button class="btn">CONTINUE EXPLORE</button>
+            </section>
+            <section class="section3 flex">
+                <figure>
+                    <img src="./assets/tm-img-01.jpg" alt="tour">
+                </figure>
+                <div class="squre squre1"><i class="fa-solid fa-circle-chevron-right"></i></div>
+                <div class="squre squre2"><i class="fa-solid fa-circle-chevron-left"></i></div>
+                <article class="article">
+                    <h4>Europe's most visited places</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptas expedita molestiae repellendus, eos, voluptates consectetur minima eaque modi laborum dolores.</p>
+                    <button class="btn">CONTINUE READING</button>
+                </article>
+            </section>
+            <section class="section4 flex">
+                <div class="squre squre12"><i class="fa-solid fa-circle-chevron-left"></i></div>
+                <div class="squre squre13"><i class="fa-solid fa-circle-chevron-right"></i></div>
+                <article class="article">
+                    <h4>Europe's most visited places</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptas expedita molestiae repellendus, eos, voluptates consectetur minima eaque modi laborum dolores.</p>
+                    <button class="btn">CONTINUE READING</button>
+                </article>
+                <figure>
+                    <img src="./assets/tm-img-02.jpg" alt="tour">
+                </figure>
+            </section>
+            <section class="section3 flex">
+                <figure>
+                    <img src="./assets/tm-img-03.jpg" alt="tour">
+                </figure>
+                <div class="squre squre1"><i class="fa-solid fa-circle-chevron-right"></i></div>
+                <div class="squre squre2"><i class="fa-solid fa-circle-chevron-left"></i></div>
+                <article class="article">
+                    <h4>America's most famous places</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptas expedita molestiae repellendus, eos, voluptates consectetur minima eaque modi laborum dolores.</p>
+                    <button class="btn">CONTINUE READING</button>
+                </article>
+            </section>
+            <section class="section5 container">
+                <figure class="gallery">
+                    <img src="./assets/north-america.png" alt="map">
+                    <p>north america</p>
+                </figure>
+                <figure class="gallery">
+                    <img src="./assets/south-america.png" alt="map">
+                    <p>south america</p>
+                </figure>
+                <figure class="gallery">
+                    <img src="./assets/europe.png" alt="map">
+                    <p>europe</p>
+                </figure>
+                <figure class="gallery asia">
+                    <img src="./assets/asia.png" alt="map">
+                    <p>asia</p>
+                </figure>
+                <figure class="gallery">
+                    <img src="./assets/africa.png" alt="map">
+                    <p>africa</p>
+                </figure>
+                <figure class="gallery">
+                    <img src="./assets/australia.png" alt="map">
+                    <p>australia</p>
+                </figure>
+                <figure class="gallery">
+                    <img src="./assets/antartica.png" alt="map">
+                    <p>antartica</p>
+                </figure>
+            </section>
+            <section class="section6">
+                <article class="flex">
+                    <figure>
+                        <img src="./assets/tm-img-04.jpg" alt="tour">
+                    </figure>
+                    <div class="col2">
+                        <h5>asia resort hotel</h5>
+                        <span>Singapore</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus labore repellendus ea</p>
+                    </div>
+                        <img src="./assets/button-curve.png" alt="">
+                    <div class="col3">
+                        <strong>$430</strong>
+                        <h6>CONTINUE READING</h6>
+                    </div>
+                </article>
+                <article class="flex">
+                    <figure>
+                        <img src="./assets/tm-img-05.jpg" alt="tour">
+                    </figure>
+                    <div class="col2">
+                        <h5>proin interdum ullamcroper</h5>
+                        <span>Bangkok Thailand</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus labore repellendus ea</p>
+                    </div>
+                        <img src="./assets/button-curve.png" alt="">
+                    <div class="col3">
+                        <strong>$440</strong>
+                        <h6>CONTINUE READING</h6>
+                    </div>
+                </article>
+                <article class="flex">
+                    <figure>
+                        <img src="./assets/tm-img-06.jpg" alt="tour">
+                    </figure>
+                    <div class="col2">
+                        <h5>nullum eget est a nisl</h5>
+                        <span>Yangaon, Myanmar</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus labore repellendus ea</p>
+                    </div>
+                        <img src="./assets/button-curve.png" alt="">
+                    <div class="col3">
+                        <strong>$450</strong>
+                        <h6>CONTINUE READING</h6>
+                    </div>
+                </article>
+                <article class="flex">
+                    <figure>
+                        <img src="./assets/tm-img-07.jpg" alt="tour">
+                    </figure>
+                    <div class="col2">
+                        <h5>lorem ipsum dollar sit</h5>
+                        <span>Viantias, Laos</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus labore repellendus ea</p>
+                    </div>
+                        <img src="./assets/button-curve.png" alt="">
+                    <div class="col3">
+                        <strong>$460</strong>
+                        <h6>CONTINUE READING</h6>
+                    </div>
+                </article>
+                <button class="btn">SHOW MORE PLACES</button>
+            </section>
+        </div>
+        </main>
+        <!-- footer  -->
+        <footer>
+            <div class="container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3375.8861239888215!2d76.35322021517975!3d32.207299020121994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391b530e24726e0d%3A0x71ff0cae0784712d!2sAltCampus%20Services%20Pvt.%20Ltd!5e0!3m2!1sen!2sin!4v1665769055180!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="footer"><small>Copyright &COPY 2020 Your Company. Designed by Template MO</small></div>
+            </div>
+
+        </footer>
+</body>
+</html>
